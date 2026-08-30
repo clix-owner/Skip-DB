@@ -1,0 +1,2 @@
+# Skip-DB
+Non anime
