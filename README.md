@@ -12,3 +12,6 @@ Outputs:
 
 SkipDB segment types: `intro`, `recap`, `outro`, `preview`.
 Times are stored in milliseconds.
+
+
+The updater downloads the official daily GitHub Release dump first and falls back to the SkipDB API dump endpoint.

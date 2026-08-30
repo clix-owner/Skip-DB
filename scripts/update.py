@@ -1,7 +1,10 @@
 import json, os, time, urllib.parse, urllib.request, urllib.error
 from pathlib import Path
 
-DUMP_URL = "https://api.skipdb.tv/api/dump"
+DUMP_URLS = [
+    "https://github.com/SkipDB-TV/skipdb/releases/latest/download/skipdb-dump.json",
+    "https://api.skipdb.tv/api/dump",
+]
 TMDB_API = "https://api.themoviedb.org/3"
 TOKEN = os.environ["TMDB_TOKEN"]
 MOVIE, TV, CACHE = Path("movie"), Path("tv"), Path(".cache/tmdb.json")
@@ -41,13 +44,29 @@ def tmdb_find(imdb):
     time.sleep(0.03)
     return cache[imdb]
 
-dump = request_json(DUMP_URL)
+dump = None
+last_error = None
+for dump_url in DUMP_URLS:
+    try:
+        print(f"Downloading SkipDB dump: {dump_url}")
+        dump = request_json(dump_url)
+        print("Download OK")
+        break
+    except Exception as e:
+        last_error = e
+        print(f"Dump source failed: {e}")
+
+if dump is None:
+    raise RuntimeError(f"All SkipDB dump sources failed: {last_error}")
+
 segments = dump.get("segments")
 if not isinstance(segments, list):
     raise RuntimeError("Unexpected SkipDB dump schema: missing segments[]")
 
 groups = {}
 for r in segments:
+    if r.get("status") not in (None, "approved"):
+        continue
     imdb = r.get("imdb_id")
     if imdb:
         groups.setdefault(imdb, []).append(r)
