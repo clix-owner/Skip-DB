@@ -1,136 +1,243 @@
-import json, os, time, urllib.parse, urllib.request, urllib.error
+import json
+import os
+import time
+import urllib.parse
+import urllib.request
+import urllib.error
 from pathlib import Path
 
+# Try the official daily release dump first, then the API fallback.
 DUMP_URLS = [
     "https://github.com/SkipDB-TV/skipdb/releases/latest/download/skipdb-dump.json",
     "https://api.skipdb.tv/api/dump",
 ]
+
 TMDB_API = "https://api.themoviedb.org/3"
-TOKEN = os.environ["TMDB_TOKEN"]
-MOVIE, TV, CACHE = Path("movie"), Path("tv"), Path(".cache/tmdb.json")
-MOVIE.mkdir(exist_ok=True); TV.mkdir(exist_ok=True); CACHE.parent.mkdir(exist_ok=True)
+TMDB_TOKEN = os.environ["TMDB_TOKEN"]
+
+OUTPUT = Path("Skip-DB.json")
+CACHE_FILE = Path(".cache/tmdb.json")
+CACHE_FILE.parent.mkdir(exist_ok=True)
 
 def request_json(url, headers=None, retries=4):
-    h = {"User-Agent":"skip-timestamps-db/1.1","Accept":"application/json"}
-    if headers: h.update(headers)
-    for n in range(retries):
+    base_headers = {
+        "User-Agent": "Skip-DB-builder/2.0",
+        "Accept": "application/json",
+    }
+    if headers:
+        base_headers.update(headers)
+
+    last_error = None
+    for attempt in range(retries):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=90) as r:
-                return json.load(r)
-        except (urllib.error.URLError, urllib.error.HTTPError) as e:
-            if n == retries-1: raise
-            time.sleep(2 ** n)
+            req = urllib.request.Request(url, headers=base_headers)
+            with urllib.request.urlopen(req, timeout=90) as response:
+                return json.load(response)
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as exc:
+            last_error = exc
+            if attempt + 1 < retries:
+                time.sleep(2 ** attempt)
+    raise last_error
 
 def load_cache():
-    try: return json.loads(CACHE.read_text()) if CACHE.exists() else {}
-    except Exception: return {}
+    if not CACHE_FILE.exists():
+        return {}
+    try:
+        return json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+def save_cache(cache):
+    CACHE_FILE.write_text(
+        json.dumps(cache, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
 
 cache = load_cache()
 
-def tmdb_find(imdb):
-    if imdb in cache and cache[imdb] is not None:
-        return cache[imdb]
-    q = urllib.parse.quote(imdb)
-    data = request_json(
-        f"{TMDB_API}/find/{q}?external_source=imdb_id",
-        {"Authorization": f"Bearer {TOKEN}"}
-    )
-    result = None
-    # SkipDB dump explicitly tells us movie vs series; caller will select matching result.
-    cache[imdb] = {
-        "movie": data.get("movie_results", []),
-        "tv": data.get("tv_results", [])
-    }
-    time.sleep(0.03)
-    return cache[imdb]
+def tmdb_find(imdb_id):
+    cached = cache.get(imdb_id)
+    if cached is not None:
+        return cached
 
+    encoded = urllib.parse.quote(imdb_id)
+    data = request_json(
+        f"{TMDB_API}/find/{encoded}?external_source=imdb_id",
+        {
+            "Authorization": f"Bearer {TMDB_TOKEN}",
+            "Accept": "application/json",
+        },
+    )
+
+    result = {
+        "movie": data.get("movie_results", []),
+        "tv": data.get("tv_results", []),
+    }
+    cache[imdb_id] = result
+    time.sleep(0.03)
+    return result
+
+# Download dump.
 dump = None
 last_error = None
-for dump_url in DUMP_URLS:
+for url in DUMP_URLS:
     try:
-        print(f"Downloading SkipDB dump: {dump_url}")
-        dump = request_json(dump_url)
-        print("Download OK")
+        print(f"Downloading: {url}", flush=True)
+        dump = request_json(url)
+        print("Download OK", flush=True)
         break
-    except Exception as e:
-        last_error = e
-        print(f"Dump source failed: {e}")
+    except Exception as exc:
+        last_error = exc
+        print(f"Source failed: {exc}", flush=True)
 
 if dump is None:
-    raise RuntimeError(f"All SkipDB dump sources failed: {last_error}")
+    raise RuntimeError(f"Could not download SkipDB dump: {last_error}")
 
 segments = dump.get("segments")
 if not isinstance(segments, list):
-    raise RuntimeError("Unexpected SkipDB dump schema: missing segments[]")
+    raise RuntimeError("Unexpected SkipDB dump: segments[] not found")
 
+print(f"Segments: {len(segments)}", flush=True)
+
+# Group by IMDb title.
 groups = {}
-for r in segments:
-    if r.get("status") not in (None, "approved"):
+for row in segments:
+    if row.get("status") not in (None, "approved"):
         continue
-    imdb = r.get("imdb_id")
-    if imdb:
-        groups.setdefault(imdb, []).append(r)
+    imdb_id = row.get("imdb_id")
+    if imdb_id:
+        groups.setdefault(imdb_id, []).append(row)
 
-movies, shows = {}, {}
+print(f"IMDb titles: {len(groups)}", flush=True)
 
-for i, (imdb, rows) in enumerate(groups.items(), 1):
-    media = rows[0].get("media_type")
+movies = {}
+shows = {}
+
+def clean_segment(row):
+    item = {
+        "start": row.get("start_ms"),
+        "end": row.get("end_ms"),
+    }
+    duration = row.get("duration_ms")
+    if duration is not None:
+        item["duration"] = duration
+    score = row.get("score")
+    if score is not None:
+        item["score"] = score
+    return item
+
+def score_of(item):
+    value = item.get("score", 0)
+    return value if isinstance(value, (int, float)) else 0
+
+for index, (imdb_id, rows) in enumerate(groups.items(), 1):
+    media_type = rows[0].get("media_type")
+
     try:
-        found = tmdb_find(imdb)
-    except Exception as e:
-        print("TMDb lookup failed:", imdb, e)
+        found = tmdb_find(imdb_id)
+    except Exception as exc:
+        print(f"TMDb failed {imdb_id}: {exc}", flush=True)
         continue
 
-    if media == "movie":
-        results = found.get("movie", [])
-        if not results: continue
-        tid = results[0]["id"]
-        obj = {"tmdb_id":tid,"imdb_id":imdb,"type":"movie","segments":{}}
-        for r in rows:
-            typ = r.get("segment_type")
-            if typ in ("intro","recap","outro","preview"):
-                obj["segments"][typ] = {
-                    "start": r.get("start_ms"),
-                    "end": r.get("end_ms"),
-                    "duration": r.get("duration_ms"),
-                    "score": r.get("score", 0)
-                }
-        movies[str(tid)] = obj
+    if media_type == "movie":
+        results = found.get("movie") or []
+        if not results:
+            continue
 
-    elif media in ("series", "tv"):
-        results = found.get("tv", [])
-        if not results: continue
-        tid = results[0]["id"]
-        obj = shows.setdefault(str(tid), {
-            "tmdb_id":tid,"imdb_id":imdb,"type":"tv","seasons":{}
-        })
-        for r in rows:
-            s, e, typ = r.get("season"), r.get("episode"), r.get("segment_type")
-            if s is None or e is None or typ not in ("intro","recap","outro","preview"):
+        tmdb_id = str(results[0]["id"])
+        entry = {
+            "imdb_id": imdb_id,
+            "segments": {},
+        }
+
+        for row in rows:
+            kind = row.get("segment_type")
+            if not kind:
                 continue
-            ep = obj["seasons"].setdefault(str(s), {}).setdefault(str(e), {})
-            candidate = {
-                "start": r.get("start_ms"),
-                "end": r.get("end_ms"),
-                "duration": r.get("duration_ms"),
-                "score": r.get("score", 0)
-            }
-            # Dump can contain multiple approved submissions; keep best score.
-            if typ not in ep or candidate["score"] > ep[typ].get("score", 0):
-                ep[typ] = candidate
+            candidate = clean_segment(row)
+            old = entry["segments"].get(kind)
+            if old is None or score_of(candidate) >= score_of(old):
+                entry["segments"][kind] = candidate
 
-    if i % 250 == 0:
-        print(f"{i}/{len(groups)} titles processed")
+        if entry["segments"]:
+            movies[tmdb_id] = entry
 
-def write_dir(folder, data):
-    wanted = set()
-    for tid, obj in data.items():
-        p = folder/f"{tid}.json"; wanted.add(p.name)
-        p.write_text(json.dumps(obj, ensure_ascii=False, separators=(",",":")))
-    for p in folder.glob("*.json"):
-        if p.name not in wanted: p.unlink()
+    elif media_type in ("series", "tv"):
+        results = found.get("tv") or []
+        if not results:
+            continue
 
-write_dir(MOVIE, movies)
-write_dir(TV, shows)
-CACHE.write_text(json.dumps(cache, separators=(",",":")))
-print(f"Done: {len(movies)} movies, {len(shows)} TV shows; SkipDB generated_at={dump.get('generated_at')}")
+        tmdb_id = str(results[0]["id"])
+        entry = shows.setdefault(
+            tmdb_id,
+            {
+                "imdb_id": imdb_id,
+                "seasons": {},
+            },
+        )
+
+        for row in rows:
+            season = row.get("season")
+            episode = row.get("episode")
+            kind = row.get("segment_type")
+
+            if season is None or episode is None or not kind:
+                continue
+
+            ep = (
+                entry["seasons"]
+                .setdefault(str(season), {})
+                .setdefault(str(episode), {})
+            )
+
+            candidate = clean_segment(row)
+            old = ep.get(kind)
+            if old is None or score_of(candidate) >= score_of(old):
+                ep[kind] = candidate
+
+    if index % 100 == 0:
+        print(f"Processed {index}/{len(groups)} titles", flush=True)
+        save_cache(cache)
+
+# Sort numeric TMDb IDs, seasons and episodes for stable, tidy output.
+def numeric_key(value):
+    try:
+        return (0, int(value))
+    except Exception:
+        return (1, str(value))
+
+movies = dict(sorted(movies.items(), key=lambda x: numeric_key(x[0])))
+shows = dict(sorted(shows.items(), key=lambda x: numeric_key(x[0])))
+
+for show in shows.values():
+    show["seasons"] = dict(
+        sorted(show["seasons"].items(), key=lambda x: numeric_key(x[0]))
+    )
+    for season_no, episodes in list(show["seasons"].items()):
+        show["seasons"][season_no] = dict(
+            sorted(episodes.items(), key=lambda x: numeric_key(x[0]))
+        )
+
+database = {
+    "meta": {
+        "format": 1,
+        "source": "SkipDB",
+        "generated_at": dump.get("generated_at"),
+        "timestamp_unit": "milliseconds",
+        "movie_count": len(movies),
+        "tv_count": len(shows),
+    },
+    "movies": movies,
+    "tv": shows,
+}
+
+# Pretty JSON, one single database file.
+OUTPUT.write_text(
+    json.dumps(database, ensure_ascii=False, indent=2) + "\n",
+    encoding="utf-8",
+)
+
+save_cache(cache)
+
+print(f"Created {OUTPUT}", flush=True)
+print(f"Movies: {len(movies)} | TV: {len(shows)}", flush=True)

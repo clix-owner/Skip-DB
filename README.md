@@ -1,17 +1,31 @@
-# Skip Timestamps DB
+# Skip-DB
 
-Verified against the current SkipDB dump schema.
+Builds one daily-updated `Skip-DB.json` containing Movie and TV skip timestamps indexed by TMDb ID.
 
 ## Setup
-Add GitHub Actions repository secret `TMDB_TOKEN` with your TMDb API Read Access Token.
-Then run **Actions → Update Timestamp DB → Run workflow**.
 
-Outputs:
-- `movie/{TMDB_ID}.json`
-- `tv/{TMDB_ID}.json`
+Add a GitHub Actions repository secret named:
 
-SkipDB segment types: `intro`, `recap`, `outro`, `preview`.
-Times are stored in milliseconds.
+`TMDB_TOKEN`
 
+Use your TMDb API Read Access Token as its value.
 
-The updater downloads the official daily GitHub Release dump first and falls back to the SkipDB API dump endpoint.
+Then run:
+
+**Actions → Update Skip-DB → Run workflow**
+
+The scheduled workflow also runs daily.
+
+## Output
+
+Only one public database file is generated:
+
+`Skip-DB.json`
+
+Top-level structure:
+
+- `meta`
+- `movies`
+- `tv`
+
+Timestamps are milliseconds.

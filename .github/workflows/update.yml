@@ -1,31 +1,47 @@
-name: Update Timestamp DB
+name: Update Skip-DB
+
 on:
   schedule:
     - cron: "30 4 * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
-  group: timestamp-db-update
+  group: skip-db-update
   cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build latest database
+
+      - name: Build Skip-DB.json
         env:
           TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
         run: python scripts/update.py
-      - name: Commit changes
+
+      - name: Commit database
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add movie tv .cache
-          git diff --cached --quiet && exit 0
-          git commit -m "Update timestamp database"
+
+          git add Skip-DB.json .cache/tmdb.json
+
+          if git diff --cached --quiet; then
+            echo "No database changes"
+            exit 0
+          fi
+
+          git commit -m "Update Skip-DB"
           git push
