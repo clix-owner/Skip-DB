@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-09-09T09:51:18.023Z",
+    "generated_at": "2026-09-10T09:49:20.806Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1347,
     "tv_count": 1493
@@ -174243,6 +174243,12 @@
               "end": 208600,
               "duration": 2426400,
               "score": 0
+            },
+            "recap": {
+              "start": 0,
+              "end": 59400,
+              "duration": 2426400,
+              "score": 0
             }
           },
           "3": {
@@ -174298,6 +174304,48 @@
               "start": 2399200,
               "end": 2444400,
               "duration": 2444400,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 116500,
+              "end": 166400,
+              "duration": 2471100,
+              "score": 0
+            },
+            "outro": {
+              "start": 2425700,
+              "end": 2471100,
+              "duration": 2471100,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 312000,
+              "end": 362000,
+              "duration": 2481100,
+              "score": 0
+            },
+            "outro": {
+              "start": 2435800,
+              "end": 2481100,
+              "duration": 2481100,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 220300,
+              "end": 271200,
+              "duration": 2505200,
+              "score": 0
+            },
+            "outro": {
+              "start": 2459900,
+              "end": 2505200,
+              "duration": 2505200,
               "score": 0
             }
           }
