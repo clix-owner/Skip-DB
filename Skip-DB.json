@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-09-13T10:21:12.833Z",
+    "generated_at": "2026-09-14T10:45:01.615Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1347,
-    "tv_count": 1497
+    "tv_count": 1498
   },
   "movies": {
     "5": {
@@ -174543,6 +174543,12 @@
               "end": 201000,
               "duration": 2539700,
               "score": 0
+            },
+            "recap": {
+              "start": 0,
+              "end": 35300,
+              "duration": 2539700,
+              "score": 0
             }
           }
         },
@@ -174572,6 +174578,20 @@
               "start": 232000,
               "end": 282000,
               "duration": 2470400,
+              "score": 0
+            }
+          },
+          "3": {
+            "outro": {
+              "start": 2458500,
+              "end": 2503700,
+              "duration": 2503700,
+              "score": 0
+            },
+            "intro": {
+              "start": 181400,
+              "end": 232200,
+              "duration": 2503700,
               "score": 0
             }
           }
@@ -521224,9 +521244,15 @@
               "score": 0
             },
             "intro": {
-              "start": 0,
-              "end": 40000,
-              "duration": 2838300,
+              "start": 42000,
+              "end": 76000,
+              "duration": 2878000,
+              "score": 0
+            },
+            "recap": {
+              "start": 7000,
+              "end": 42000,
+              "duration": 2878000,
               "score": 0
             }
           },
@@ -617250,6 +617276,21 @@
             "outro": {
               "start": 1277000,
               "end": 1367000,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
+    "95350": {
+      "imdb_id": "tt26545992",
+      "seasons": {
+        "1": {
+          "4": {
+            "intro": {
+              "start": 280800,
+              "end": 287300,
+              "duration": 3122500,
               "score": 0
             }
           }
