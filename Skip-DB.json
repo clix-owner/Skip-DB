@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-09-17T10:03:26.556Z",
+    "generated_at": "2026-09-18T09:50:33.484Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1347,
     "tv_count": 1498
@@ -1259,7 +1259,7 @@
           "start": 6950800,
           "end": 7272300,
           "duration": 7272300,
-          "score": 0
+          "score": 1
         }
       }
     },
@@ -8881,7 +8881,7 @@
           "start": 7983300,
           "end": 8008000,
           "duration": 8008000,
-          "score": 0
+          "score": 1
         }
       }
     },
@@ -629698,6 +629698,14 @@
               "start": 1100,
               "end": 27500,
               "duration": 3760900,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 1600,
+              "end": 27000,
+              "duration": 2912200,
               "score": 0
             }
           }
