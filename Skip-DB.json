@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-09-19T09:34:55.176Z",
+    "generated_at": "2026-09-20T09:51:21.523Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1347,
-    "tv_count": 1499
+    "tv_count": 1498
   },
   "movies": {
     "5": {
@@ -629712,21 +629712,6 @@
         }
       }
     },
-    "103786": {
-      "imdb_id": "tt10611608",
-      "seasons": {
-        "1": {
-          "2": {
-            "intro": {
-              "start": 5000,
-              "end": 56000,
-              "duration": 900000,
-              "score": 0
-            }
-          }
-        }
-      }
-    },
     "104032": {
       "imdb_id": "tt14960284",
       "seasons": {
@@ -655748,6 +655733,52 @@
               "start": 69000,
               "end": 118000,
               "duration": 2920000,
+              "score": 0
+            },
+            "outro": {
+              "start": 2866000,
+              "end": 2920000,
+              "duration": 2920000,
+              "score": 0
+            }
+          },
+          "5": {
+            "recap": {
+              "start": 0,
+              "end": 57000,
+              "duration": 2598000,
+              "score": 0
+            },
+            "intro": {
+              "start": 57000,
+              "end": 106000,
+              "duration": 2598000,
+              "score": 0
+            },
+            "outro": {
+              "start": 2543000,
+              "end": 2598000,
+              "duration": 2598000,
+              "score": 0
+            }
+          },
+          "6": {
+            "recap": {
+              "start": 0,
+              "end": 58000,
+              "duration": 2844000,
+              "score": 0
+            },
+            "intro": {
+              "start": 58000,
+              "end": 106000,
+              "duration": 2844000,
+              "score": 0
+            },
+            "outro": {
+              "start": 2790000,
+              "end": 2844000,
+              "duration": 2844000,
               "score": 0
             }
           }
