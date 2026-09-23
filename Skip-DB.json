@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-09-21T10:48:25.874Z",
+    "generated_at": "2026-09-22T10:03:44.732Z",
     "timestamp_unit": "milliseconds",
-    "movie_count": 1347,
-    "tv_count": 1499
+    "movie_count": 1405,
+    "tv_count": 1501
   },
   "movies": {
     "5": {
@@ -416,6 +416,17 @@
         }
       }
     },
+    "129": {
+      "imdb_id": "tt0245429",
+      "segments": {
+        "outro": {
+          "start": 7257300,
+          "end": 7475900,
+          "duration": 7475900,
+          "score": 0
+        }
+      }
+    },
     "137": {
       "imdb_id": "tt0107048",
       "segments": {
@@ -478,6 +489,17 @@
           "start": 5757500,
           "end": 6106800,
           "duration": 6106800,
+          "score": 0
+        }
+      }
+    },
+    "154": {
+      "imdb_id": "tt0084726",
+      "segments": {
+        "outro": {
+          "start": 6625700,
+          "end": 6991600,
+          "duration": 6991600,
           "score": 0
         }
       }
@@ -632,6 +654,17 @@
           "start": 5860900,
           "end": 6179800,
           "duration": 6179800,
+          "score": 0
+        }
+      }
+    },
+    "201": {
+      "imdb_id": "tt0253754",
+      "segments": {
+        "outro": {
+          "start": 6560600,
+          "end": 6989100,
+          "duration": 6989100,
           "score": 0
         }
       }
@@ -1054,6 +1087,17 @@
         }
       }
     },
+    "409": {
+      "imdb_id": "tt0116209",
+      "segments": {
+        "outro": {
+          "start": 9425500,
+          "end": 9712800,
+          "duration": 9712800,
+          "score": 0
+        }
+      }
+    },
     "414": {
       "imdb_id": "tt0112462",
       "segments": {
@@ -1094,6 +1138,17 @@
           "start": 10675900,
           "end": 10723200,
           "duration": 10723200,
+          "score": 0
+        }
+      }
+    },
+    "453": {
+      "imdb_id": "tt0268978",
+      "segments": {
+        "outro": {
+          "start": 7721300,
+          "end": 8131000,
+          "duration": 8131000,
           "score": 0
         }
       }
@@ -1523,6 +1578,17 @@
           "start": 6138000,
           "end": 6342800,
           "duration": 6342800,
+          "score": 0
+        }
+      }
+    },
+    "631": {
+      "imdb_id": "tt0018455",
+      "segments": {
+        "outro": {
+          "start": 5572200,
+          "end": 5661700,
+          "duration": 5661700,
           "score": 0
         }
       }
@@ -2366,6 +2432,17 @@
           "start": 5256000,
           "end": 5670700,
           "duration": 5670700,
+          "score": 0
+        }
+      }
+    },
+    "1271": {
+      "imdb_id": "tt0416449",
+      "segments": {
+        "outro": {
+          "start": 6543500,
+          "end": 6998900,
+          "duration": 6998900,
           "score": 0
         }
       }
@@ -3583,6 +3660,17 @@
         }
       }
     },
+    "5683": {
+      "imdb_id": "tt0089791",
+      "segments": {
+        "outro": {
+          "start": 5282400,
+          "end": 5482400,
+          "duration": 5482400,
+          "score": 0
+        }
+      }
+    },
     "5693": {
       "imdb_id": "tt0091217",
       "segments": {
@@ -3858,6 +3946,17 @@
         }
       }
     },
+    "8065": {
+      "imdb_id": "tt0478087",
+      "segments": {
+        "outro": {
+          "start": 7119200,
+          "end": 7361400,
+          "duration": 7361400,
+          "score": 0
+        }
+      }
+    },
     "8077": {
       "imdb_id": "tt0103644",
       "segments": {
@@ -3975,6 +4074,17 @@
           "start": 5882200,
           "end": 6090700,
           "duration": 6090700,
+          "score": 0
+        }
+      }
+    },
+    "8584": {
+      "imdb_id": "tt0184894",
+      "segments": {
+        "outro": {
+          "start": 6322900,
+          "end": 6617600,
+          "duration": 6617600,
           "score": 0
         }
       }
@@ -4166,6 +4276,17 @@
         }
       }
     },
+    "9277": {
+      "imdb_id": "tt0070735",
+      "segments": {
+        "outro": {
+          "start": 7740100,
+          "end": 7756900,
+          "duration": 7756900,
+          "score": 0
+        }
+      }
+    },
     "9281": {
       "imdb_id": "tt0090329",
       "segments": {
@@ -4322,6 +4443,17 @@
           "start": 6729700,
           "end": 7076900,
           "duration": 7076900,
+          "score": 0
+        }
+      }
+    },
+    "9486": {
+      "imdb_id": "tt0274166",
+      "segments": {
+        "outro": {
+          "start": 5024500,
+          "end": 5245700,
+          "duration": 5245700,
           "score": 0
         }
       }
@@ -4590,6 +4722,17 @@
         }
       }
     },
+    "9772": {
+      "imdb_id": "tt0118571",
+      "segments": {
+        "outro": {
+          "start": 7099500,
+          "end": 7474500,
+          "duration": 7474500,
+          "score": 0
+        }
+      }
+    },
     "9801": {
       "imdb_id": "tt0317198",
       "segments": {
@@ -4597,6 +4740,17 @@
           "start": 6094100,
           "end": 6448700,
           "duration": 6448700,
+          "score": 0
+        }
+      }
+    },
+    "9802": {
+      "imdb_id": "tt0117500",
+      "segments": {
+        "outro": {
+          "start": 7867500,
+          "end": 8197300,
+          "duration": 8197300,
           "score": 0
         }
       }
@@ -4909,6 +5063,17 @@
         }
       }
     },
+    "10644": {
+      "imdb_id": "tt0096332",
+      "segments": {
+        "outro": {
+          "start": 10130900,
+          "end": 10362400,
+          "duration": 10362400,
+          "score": 0
+        }
+      }
+    },
     "10681": {
       "imdb_id": "tt0910970",
       "segments": {
@@ -4961,6 +5126,17 @@
           "start": 916500,
           "end": 1072600,
           "duration": 6372900,
+          "score": 0
+        }
+      }
+    },
+    "10775": {
+      "imdb_id": "tt0338564",
+      "segments": {
+        "outro": {
+          "start": 5219600,
+          "end": 6076500,
+          "duration": 6076500,
           "score": 0
         }
       }
@@ -5268,6 +5444,17 @@
         }
       }
     },
+    "11371": {
+      "imdb_id": "tt0227445",
+      "segments": {
+        "outro": {
+          "start": 7097500,
+          "end": 7450300,
+          "duration": 7450300,
+          "score": 0
+        }
+      }
+    },
     "11374": {
       "imdb_id": "tt0131369",
       "segments": {
@@ -5352,6 +5539,17 @@
           "start": 6377400,
           "end": 6612100,
           "duration": 6612100,
+          "score": 0
+        }
+      }
+    },
+    "11619": {
+      "imdb_id": "tt0424095",
+      "segments": {
+        "outro": {
+          "start": 4597600,
+          "end": 5102300,
+          "duration": 5102300,
           "score": 0
         }
       }
@@ -5968,6 +6166,17 @@
         }
       }
     },
+    "14161": {
+      "imdb_id": "tt1190080",
+      "segments": {
+        "outro": {
+          "start": 8601600,
+          "end": 9469500,
+          "duration": 9469500,
+          "score": 0
+        }
+      }
+    },
     "14202": {
       "imdb_id": "tt0446755",
       "segments": {
@@ -6111,6 +6320,17 @@
         }
       }
     },
+    "15372": {
+      "imdb_id": "tt1172061",
+      "segments": {
+        "outro": {
+          "start": 5563700,
+          "end": 5618700,
+          "duration": 5618700,
+          "score": 0
+        }
+      }
+    },
     "15378": {
       "imdb_id": "tt0427998",
       "segments": {
@@ -6129,6 +6349,17 @@
           "start": 5192100,
           "end": 5393400,
           "duration": 5393400,
+          "score": 0
+        }
+      }
+    },
+    "15429": {
+      "imdb_id": "tt1346974",
+      "segments": {
+        "outro": {
+          "start": 5199800,
+          "end": 5224600,
+          "duration": 5224600,
           "score": 0
         }
       }
@@ -6305,6 +6536,17 @@
           "start": 5875500,
           "end": 5982700,
           "duration": 5982700,
+          "score": 0
+        }
+      }
+    },
+    "19499": {
+      "imdb_id": "tt0841115",
+      "segments": {
+        "outro": {
+          "start": 4795200,
+          "end": 4812400,
+          "duration": 4812400,
           "score": 0
         }
       }
@@ -7278,6 +7520,17 @@
         }
       }
     },
+    "53182": {
+      "imdb_id": "tt1253863",
+      "segments": {
+        "outro": {
+          "start": 5637100,
+          "end": 6156800,
+          "duration": 6156800,
+          "score": 0
+        }
+      }
+    },
     "55347": {
       "imdb_id": "tt1532503",
       "segments": {
@@ -7318,6 +7571,17 @@
           "start": 10561800,
           "end": 11194500,
           "duration": 11194500,
+          "score": 0
+        }
+      }
+    },
+    "58233": {
+      "imdb_id": "tt1634122",
+      "segments": {
+        "outro": {
+          "start": 6073600,
+          "end": 6088800,
+          "duration": 6088800,
           "score": 0
         }
       }
@@ -7586,6 +7850,17 @@
         }
       }
     },
+    "74306": {
+      "imdb_id": "tt1912398",
+      "segments": {
+        "outro": {
+          "start": 5961600,
+          "end": 6263300,
+          "duration": 6263300,
+          "score": 0
+        }
+      }
+    },
     "74387": {
       "imdb_id": "tt1456635",
       "segments": {
@@ -7685,6 +7960,17 @@
         }
       }
     },
+    "79483": {
+      "imdb_id": "tt2120780",
+      "segments": {
+        "outro": {
+          "start": 6060600,
+          "end": 6106000,
+          "duration": 6106000,
+          "score": 0
+        }
+      }
+    },
     "80274": {
       "imdb_id": "tt1731141",
       "segments": {
@@ -7692,6 +7978,17 @@
           "start": 6311500,
           "end": 6836800,
           "duration": 6836800,
+          "score": 0
+        }
+      }
+    },
+    "82520": {
+      "imdb_id": "tt1677082",
+      "segments": {
+        "outro": {
+          "start": 5657600,
+          "end": 5881200,
+          "duration": 5881200,
           "score": 0
         }
       }
@@ -7729,6 +8026,17 @@
         }
       }
     },
+    "87093": {
+      "imdb_id": "tt1126590",
+      "segments": {
+        "outro": {
+          "start": 5940600,
+          "end": 6344400,
+          "duration": 6344400,
+          "score": 0
+        }
+      }
+    },
     "87101": {
       "imdb_id": "tt1340138",
       "segments": {
@@ -7747,6 +8055,17 @@
           "start": 7914700,
           "end": 8315400,
           "duration": 8315400,
+          "score": 0
+        }
+      }
+    },
+    "87513": {
+      "imdb_id": "tt2012616",
+      "segments": {
+        "outro": {
+          "start": 5714300,
+          "end": 6219000,
+          "duration": 6219000,
           "score": 0
         }
       }
@@ -8423,6 +8742,17 @@
         }
       }
     },
+    "239678": {
+      "imdb_id": "tt1371150",
+      "segments": {
+        "outro": {
+          "start": 6007300,
+          "end": 6198600,
+          "duration": 6198600,
+          "score": 0
+        }
+      }
+    },
     "241554": {
       "imdb_id": "tt2199571",
       "segments": {
@@ -8687,6 +9017,17 @@
         }
       }
     },
+    "287947": {
+      "imdb_id": "tt0448115",
+      "segments": {
+        "outro": {
+          "start": 7492100,
+          "end": 7903100,
+          "duration": 7903100,
+          "score": 0
+        }
+      }
+    },
     "290859": {
       "imdb_id": "tt6450804",
       "segments": {
@@ -8786,6 +9127,17 @@
         }
       }
     },
+    "300671": {
+      "imdb_id": "tt4172430",
+      "segments": {
+        "outro": {
+          "start": 8305400,
+          "end": 8669500,
+          "duration": 8669500,
+          "score": 0
+        }
+      }
+    },
     "301528": {
       "imdb_id": "tt1979376",
       "segments": {
@@ -8793,6 +9145,17 @@
           "start": 5987700,
           "end": 6003500,
           "duration": 6003500,
+          "score": 0
+        }
+      }
+    },
+    "302401": {
+      "imdb_id": "tt3774114",
+      "segments": {
+        "outro": {
+          "start": 7816400,
+          "end": 8089100,
+          "duration": 8089100,
           "score": 0
         }
       }
@@ -8980,6 +9343,17 @@
           "start": 5595300,
           "end": 6107600,
           "duration": 6107600,
+          "score": 0
+        }
+      }
+    },
+    "330459": {
+      "imdb_id": "tt3748528",
+      "segments": {
+        "outro": {
+          "start": 7542000,
+          "end": 8037800,
+          "duration": 8037800,
           "score": 0
         }
       }
@@ -9310,6 +9684,17 @@
         }
       }
     },
+    "381283": {
+      "imdb_id": "tt5109784",
+      "segments": {
+        "outro": {
+          "start": 6981200,
+          "end": 7272800,
+          "duration": 7272800,
+          "score": 0
+        }
+      }
+    },
     "381289": {
       "imdb_id": "tt1753383",
       "segments": {
@@ -9475,6 +9860,17 @@
         }
       }
     },
+    "405177": {
+      "imdb_id": "tt2365580",
+      "segments": {
+        "outro": {
+          "start": 6171400,
+          "end": 6538000,
+          "duration": 6538000,
+          "score": 0
+        }
+      }
+    },
     "412117": {
       "imdb_id": "tt5113040",
       "segments": {
@@ -9482,6 +9878,17 @@
           "start": 4803500,
           "end": 5163500,
           "duration": 5163500,
+          "score": 0
+        }
+      }
+    },
+    "413846": {
+      "imdb_id": "tt4959750",
+      "segments": {
+        "outro": {
+          "start": 5329200,
+          "end": 5830800,
+          "duration": 5830800,
           "score": 0
         }
       }
@@ -9504,6 +9911,17 @@
           "start": 7047000,
           "end": 7200700,
           "duration": 7200700,
+          "score": 0
+        }
+      }
+    },
+    "418437": {
+      "imdb_id": "tt3462710",
+      "segments": {
+        "outro": {
+          "start": 5833300,
+          "end": 6008100,
+          "duration": 6008100,
           "score": 0
         }
       }
@@ -9581,6 +9999,17 @@
           "start": 6006000,
           "end": 6388600,
           "duration": 6388600,
+          "score": 0
+        }
+      }
+    },
+    "429351": {
+      "imdb_id": "tt1413492",
+      "segments": {
+        "outro": {
+          "start": 7276600,
+          "end": 7792000,
+          "duration": 7792000,
           "score": 0
         }
       }
@@ -9739,6 +10168,17 @@
         }
       }
     },
+    "454283": {
+      "imdb_id": "tt6495770",
+      "segments": {
+        "outro": {
+          "start": 4727800,
+          "end": 5077900,
+          "duration": 5077900,
+          "score": 0
+        }
+      }
+    },
     "454639": {
       "imdb_id": "tt0427340",
       "segments": {
@@ -9812,6 +10252,28 @@
           "start": 6324100,
           "end": 7110100,
           "duration": 7110100,
+          "score": 0
+        }
+      }
+    },
+    "462360": {
+      "imdb_id": "tt7359702",
+      "segments": {
+        "outro": {
+          "start": 4038600,
+          "end": 4093300,
+          "duration": 4093300,
+          "score": 0
+        }
+      }
+    },
+    "463272": {
+      "imdb_id": "tt6921996",
+      "segments": {
+        "outro": {
+          "start": 5032000,
+          "end": 5313200,
+          "duration": 5313200,
           "score": 0
         }
       }
@@ -10027,6 +10489,17 @@
           "start": 5066200,
           "end": 5356100,
           "duration": 5356100,
+          "score": 0
+        }
+      }
+    },
+    "489999": {
+      "imdb_id": "tt7668870",
+      "segments": {
+        "outro": {
+          "start": 5810000,
+          "end": 6142600,
+          "duration": 6142600,
           "score": 0
         }
       }
@@ -10251,6 +10724,17 @@
         }
       }
     },
+    "530915": {
+      "imdb_id": "tt8579674",
+      "segments": {
+        "outro": {
+          "start": 6567300,
+          "end": 7138300,
+          "duration": 7138300,
+          "score": 0
+        }
+      }
+    },
     "532639": {
       "imdb_id": "tt4593060",
       "segments": {
@@ -10401,6 +10885,17 @@
           "start": 7510800,
           "end": 7813600,
           "duration": 7813600,
+          "score": 0
+        }
+      }
+    },
+    "549509": {
+      "imdb_id": "tt8999762",
+      "segments": {
+        "outro": {
+          "start": 11335000,
+          "end": 12037000,
+          "duration": 12037000,
           "score": 0
         }
       }
@@ -10581,6 +11076,17 @@
         }
       }
     },
+    "587682": {
+      "imdb_id": "tt9817258",
+      "segments": {
+        "outro": {
+          "start": 3461700,
+          "end": 3490200,
+          "duration": 3490200,
+          "score": 0
+        }
+      }
+    },
     "587792": {
       "imdb_id": "tt9484998",
       "segments": {
@@ -10720,6 +11226,17 @@
           "start": 6859500,
           "end": 6875300,
           "duration": 6875300,
+          "score": 0
+        }
+      }
+    },
+    "619264": {
+      "imdb_id": "tt8228288",
+      "segments": {
+        "outro": {
+          "start": 5603600,
+          "end": 5933500,
+          "duration": 5933500,
           "score": 0
         }
       }
@@ -11208,6 +11725,17 @@
         }
       }
     },
+    "766475": {
+      "imdb_id": "tt13640696",
+      "segments": {
+        "outro": {
+          "start": 5646500,
+          "end": 5889200,
+          "duration": 5889200,
+          "score": 0
+        }
+      }
+    },
     "766520": {
       "imdb_id": "tt13109732",
       "segments": {
@@ -11259,6 +11787,17 @@
           "start": 5818800,
           "end": 6008800,
           "duration": 6008800,
+          "score": 0
+        }
+      }
+    },
+    "785542": {
+      "imdb_id": "tt11687002",
+      "segments": {
+        "outro": {
+          "start": 6731000,
+          "end": 7078200,
+          "duration": 7078200,
           "score": 0
         }
       }
@@ -11457,6 +11996,17 @@
           "start": 8593300,
           "end": 8775900,
           "duration": 8775900,
+          "score": 0
+        }
+      }
+    },
+    "817758": {
+      "imdb_id": "tt14444726",
+      "segments": {
+        "outro": {
+          "start": 9282300,
+          "end": 9479500,
+          "duration": 9479500,
           "score": 0
         }
       }
@@ -11776,6 +12326,17 @@
           "start": 5210200,
           "end": 5373400,
           "duration": 5373400,
+          "score": 0
+        }
+      }
+    },
+    "926008": {
+      "imdb_id": "tt17007120",
+      "segments": {
+        "outro": {
+          "start": 6290900,
+          "end": 6610500,
+          "duration": 6610500,
           "score": 0
         }
       }
@@ -12243,6 +12804,23 @@
         }
       }
     },
+    "1000866": {
+      "imdb_id": "tt30327451",
+      "segments": {
+        "intro": {
+          "start": 0,
+          "end": 36000,
+          "duration": 6200000,
+          "score": 0
+        },
+        "outro": {
+          "start": 5950000,
+          "end": 6200000,
+          "duration": 6200000,
+          "score": 0
+        }
+      }
+    },
     "1005076": {
       "imdb_id": "tt18300732",
       "segments": {
@@ -12638,6 +13216,17 @@
         }
       }
     },
+    "1084244": {
+      "imdb_id": "tt29355505",
+      "segments": {
+        "outro": {
+          "start": 6103300,
+          "end": 6206800,
+          "duration": 6206800,
+          "score": 0
+        }
+      }
+    },
     "1084577": {
       "imdb_id": "tt26735622",
       "segments": {
@@ -12865,6 +13454,17 @@
           "start": 6384500,
           "end": 6887600,
           "duration": 6887600,
+          "score": 0
+        }
+      }
+    },
+    "1120911": {
+      "imdb_id": "tt27657135",
+      "segments": {
+        "outro": {
+          "start": 6234800,
+          "end": 6544800,
+          "duration": 6544800,
           "score": 0
         }
       }
@@ -13250,6 +13850,17 @@
           "start": 7029000,
           "end": 7456400,
           "duration": 7456400,
+          "score": 0
+        }
+      }
+    },
+    "1169007": {
+      "imdb_id": "tt28741830",
+      "segments": {
+        "outro": {
+          "start": 3139300,
+          "end": 3154600,
+          "duration": 3154600,
           "score": 0
         }
       }
@@ -14046,6 +14657,17 @@
         }
       }
     },
+    "1281195": {
+      "imdb_id": "tt8760666",
+      "segments": {
+        "outro": {
+          "start": 5918900,
+          "end": 6127900,
+          "duration": 6127900,
+          "score": 0
+        }
+      }
+    },
     "1284016": {
       "imdb_id": "tt32267691",
       "segments": {
@@ -14705,6 +15327,17 @@
         }
       }
     },
+    "1419826": {
+      "imdb_id": "tt26595906",
+      "segments": {
+        "outro": {
+          "start": 6285000,
+          "end": 6541600,
+          "duration": 6541600,
+          "score": 0
+        }
+      }
+    },
     "1421990": {
       "imdb_id": "tt35520290",
       "segments": {
@@ -14822,6 +15455,17 @@
           "start": 5079100,
           "end": 5330000,
           "duration": 5330000,
+          "score": 0
+        }
+      }
+    },
+    "1480387": {
+      "imdb_id": "tt35892608",
+      "segments": {
+        "outro": {
+          "start": 5450400,
+          "end": 5637800,
+          "duration": 5637800,
           "score": 0
         }
       }
@@ -520972,6 +521616,157 @@
         }
       }
     },
+    "67256": {
+      "imdb_id": "tt1308085",
+      "seasons": {
+        "1": {
+          "1": {
+            "intro": {
+              "start": 0,
+              "end": 90200,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315000,
+              "end": 1405000,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 0,
+              "end": 90200,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315100,
+              "end": 1405000,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315100,
+              "end": 1405000,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 0,
+              "end": 90200,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315100,
+              "end": 1405000,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1224000,
+              "end": 1314000,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1314900,
+              "end": 1404900,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315000,
+              "end": 1404900,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315100,
+              "end": 1405200,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315100,
+              "end": 1405200,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315000,
+              "end": 1404900,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315000,
+              "end": 1404900,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1315100,
+              "end": 1404900,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
     "67260": {
       "imdb_id": "tt5905202",
       "seasons": {
@@ -688911,6 +689706,38 @@
             "outro": {
               "start": 656000,
               "end": 716000,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
+    "273207": {
+      "imdb_id": "tt33539520",
+      "seasons": {
+        "1": {
+          "1": {
+            "intro": {
+              "start": 305000,
+              "end": 318000,
+              "duration": 3442000,
+              "score": 0
+            },
+            "outro": {
+              "start": 3085000,
+              "end": 3090000,
+              "duration": 3442000,
+              "score": 0
+            },
+            "preview": {
+              "start": 3090000,
+              "end": 3194000,
+              "duration": 3442000,
+              "score": 0
+            },
+            "recap": {
+              "start": 0,
+              "end": 0,
               "score": 0
             }
           }
