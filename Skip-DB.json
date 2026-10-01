@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-09-29T11:24:38.695Z",
+    "generated_at": "2026-09-30T11:12:19.808Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1406,
     "tv_count": 1505
@@ -212177,6 +212177,14 @@
               "duration": 1289600,
               "score": 0
             }
+          },
+          "8": {
+            "intro": {
+              "start": 105600,
+              "end": 126000,
+              "duration": 1298400,
+              "score": 0
+            }
           }
         }
       }
@@ -270493,15 +270501,15 @@
       "seasons": {
         "1": {
           "1": {
-            "intro": {
-              "start": 168000,
-              "end": 202000,
-              "duration": 2547600,
-              "score": 0
-            },
             "outro": {
               "start": 2509000,
               "end": 2547600,
+              "duration": 2547600,
+              "score": 0
+            },
+            "intro": {
+              "start": 168000,
+              "end": 202000,
               "duration": 2547600,
               "score": 0
             }
@@ -621788,6 +621796,14 @@
               "start": 244000,
               "end": 287200,
               "duration": 2800900,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 506500,
+              "end": 549600,
+              "duration": 2910600,
               "score": 0
             }
           }
