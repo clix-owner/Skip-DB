@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-01T11:39:58.437Z",
+    "generated_at": "2026-10-02T11:09:34.425Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1409,
-    "tv_count": 1511
+    "tv_count": 1512
   },
   "movies": {
     "5": {
@@ -189969,6 +189969,24 @@
               "start": 1499000,
               "end": 1531000,
               "duration": 1531000,
+              "score": 0
+            }
+          }
+        },
+        "29": {
+          "1": {
+            "intro": {
+              "start": 1000,
+              "end": 33300,
+              "duration": 1335000,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 1000,
+              "end": 33300,
+              "duration": 1335000,
               "score": 0
             }
           }
@@ -445825,6 +445843,27 @@
               "start": 187200,
               "end": 197400,
               "duration": 1259000,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
+    "57757": {
+      "imdb_id": "tt2904656",
+      "seasons": {
+        "1": {
+          "1": {
+            "intro": {
+              "start": 42200,
+              "end": 134400,
+              "duration": 1422100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1300800,
+              "end": 1422100,
+              "duration": 1422100,
               "score": 0
             }
           }
