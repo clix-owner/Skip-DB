@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-04T11:09:22.023Z",
+    "generated_at": "2026-10-05T12:20:36.527Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1411,
     "tv_count": 1514
@@ -478272,6 +478272,152 @@
             "outro": {
               "start": 2575200,
               "end": 2761200,
+              "score": 0
+            }
+          }
+        },
+        "2": {
+          "1": {
+            "intro": {
+              "start": 347900,
+              "end": 438100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334600,
+              "end": 1425000,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 53000,
+              "end": 143000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1325700,
+              "end": 1410700,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 90000,
+              "end": 180100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1332900,
+              "end": 1418000,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 82000,
+              "end": 172000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1330800,
+              "end": 1415900,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 49000,
+              "end": 139000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1331500,
+              "end": 1416600,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 82100,
+              "end": 172000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1319400,
+              "end": 1404400,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 36000,
+              "end": 126000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1332100,
+              "end": 1417200,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 128000,
+              "end": 218100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1339400,
+              "end": 1425000,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 49000,
+              "end": 139000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1321800,
+              "end": 1406900,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 76000,
+              "end": 166000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1322200,
+              "end": 1410900,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 20000,
+              "end": 110200,
+              "score": 0
+            },
+            "outro": {
+              "start": 1339200,
+              "end": 1425000,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 95900,
+              "end": 186100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1353800,
+              "end": 1441100,
               "score": 0
             }
           }
