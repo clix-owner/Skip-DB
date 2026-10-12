@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-10T11:13:32.803Z",
+    "generated_at": "2026-10-11T11:26:54.971Z",
     "timestamp_unit": "milliseconds",
-    "movie_count": 1417,
-    "tv_count": 1537
+    "movie_count": 1419,
+    "tv_count": 1538
   },
   "movies": {
     "5": {
@@ -2579,6 +2579,17 @@
         }
       }
     },
+    "1535": {
+      "imdb_id": "tt0266987",
+      "segments": {
+        "intro": {
+          "start": 100,
+          "end": 31700,
+          "duration": 7598700,
+          "score": 0
+        }
+      }
+    },
     "1538": {
       "imdb_id": "tt0369339",
       "segments": {
@@ -2978,6 +2989,17 @@
           "start": 5700900,
           "end": 5833400,
           "duration": 5833400,
+          "score": 0
+        }
+      }
+    },
+    "2118": {
+      "imdb_id": "tt0119488",
+      "segments": {
+        "intro": {
+          "start": 0,
+          "end": 23800,
+          "duration": 8273300,
           "score": 0
         }
       }
@@ -709427,6 +709449,21 @@
               "start": 0,
               "end": 40000,
               "duration": 4021000,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
+    "258165": {
+      "imdb_id": "tt21097264",
+      "seasons": {
+        "1": {
+          "1": {
+            "preview": {
+              "start": 2813000,
+              "end": 2852700,
+              "duration": 3084300,
               "score": 0
             }
           }
