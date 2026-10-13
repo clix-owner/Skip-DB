@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-11T11:26:54.971Z",
+    "generated_at": "2026-10-12T13:14:38.573Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1419,
     "tv_count": 1538
@@ -2999,6 +2999,12 @@
         "intro": {
           "start": 0,
           "end": 23800,
+          "duration": 8273300,
+          "score": 0
+        },
+        "outro": {
+          "start": 7980900,
+          "end": 8273300,
           "duration": 8273300,
           "score": 0
         }
