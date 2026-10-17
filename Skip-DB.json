@@ -2,9 +2,9 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-15T10:00:56.882Z",
+    "generated_at": "2026-10-16T09:54:25.338Z",
     "timestamp_unit": "milliseconds",
-    "movie_count": 1421,
+    "movie_count": 1422,
     "tv_count": 1540
   },
   "movies": {
@@ -11397,6 +11397,23 @@
           "start": 7068700,
           "end": 7362100,
           "duration": 7362100,
+          "score": 0
+        }
+      }
+    },
+    "620249": {
+      "imdb_id": "tt10734928",
+      "segments": {
+        "intro": {
+          "start": 0,
+          "end": 105300,
+          "duration": 6100100,
+          "score": 0
+        },
+        "outro": {
+          "start": 5955300,
+          "end": 6100100,
+          "duration": 6100100,
           "score": 0
         }
       }
@@ -192859,6 +192876,14 @@
             "intro": {
               "start": 1000,
               "end": 33300,
+              "duration": 1335000,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 6000,
+              "end": 32000,
               "duration": 1335000,
               "score": 0
             }
