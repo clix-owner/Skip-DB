@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-16T09:54:25.338Z",
+    "generated_at": "2026-10-17T09:27:35.930Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1422,
     "tv_count": 1540
@@ -130386,17 +130386,17 @@
             }
           },
           "6": {
-            "intro": {
-              "start": 20800,
-              "end": 52300,
-              "duration": 1315900,
-              "score": 0
-            },
             "outro": {
               "start": 1264400,
               "end": 1315900,
               "duration": 1315900,
               "score": 0
+            },
+            "intro": {
+              "start": 20800,
+              "end": 52300,
+              "duration": 1315900,
+              "score": -1
             }
           },
           "7": {
@@ -442840,6 +442840,14 @@
       "imdb_id": "tt2467372",
       "seasons": {
         "1": {
+          "1": {
+            "outro": {
+              "start": 1352000,
+              "end": 1368700,
+              "duration": 1368700,
+              "score": 0
+            }
+          },
           "2": {
             "intro": {
               "start": 88100,
