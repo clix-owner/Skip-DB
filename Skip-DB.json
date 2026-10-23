@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-10-21T10:16:22.289Z",
+    "generated_at": "2026-10-22T10:17:08.571Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1423,
-    "tv_count": 1541
+    "tv_count": 1543
   },
   "movies": {
     "5": {
@@ -290969,8 +290969,9 @@
           },
           "6": {
             "intro": {
-              "start": 20200,
-              "end": 110100,
+              "start": 20000,
+              "end": 110000,
+              "duration": 1500000,
               "score": 0
             },
             "outro": {
@@ -333125,6 +333126,1327 @@
             "outro": {
               "start": 1319200,
               "end": 1417900,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
+    "27660": {
+      "imdb_id": "tt0096633",
+      "seasons": {
+        "1": {
+          "1": {
+            "outro": {
+              "start": 1333000,
+              "end": 1423900,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 91200,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 0,
+              "end": 90900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334300,
+              "end": 1426100,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 0,
+              "end": 90800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1332800,
+              "end": 1424000,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 0,
+              "end": 90900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1333300,
+              "end": 1424600,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1335300,
+              "end": 1426000,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 0,
+              "end": 92000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1332600,
+              "end": 1428200,
+              "score": 0
+            }
+          },
+          "7": {
+            "outro": {
+              "start": 1335800,
+              "end": 1426500,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 0,
+              "end": 91200,
+              "score": 0
+            },
+            "outro": {
+              "start": 1336400,
+              "end": 1426300,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 0,
+              "end": 91000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1335600,
+              "end": 1426400,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 0,
+              "end": 91400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334100,
+              "end": 1425200,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 0,
+              "end": 90700,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334100,
+              "end": 1424500,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 0,
+              "end": 90700,
+              "score": 0
+            },
+            "outro": {
+              "start": 1340500,
+              "end": 1430800,
+              "score": 0
+            }
+          },
+          "13": {
+            "intro": {
+              "start": 0,
+              "end": 91500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1333000,
+              "end": 1423800,
+              "score": 0
+            }
+          },
+          "14": {
+            "intro": {
+              "start": 0,
+              "end": 90800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1331900,
+              "end": 1423700,
+              "score": 0
+            }
+          },
+          "15": {
+            "intro": {
+              "start": 0,
+              "end": 90900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1333000,
+              "end": 1425200,
+              "score": 0
+            }
+          },
+          "16": {
+            "intro": {
+              "start": 0,
+              "end": 90900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1333800,
+              "end": 1424500,
+              "score": 0
+            }
+          },
+          "17": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334500,
+              "end": 1424500,
+              "score": 0
+            }
+          },
+          "18": {
+            "intro": {
+              "start": 0,
+              "end": 90700,
+              "score": 0
+            },
+            "outro": {
+              "start": 1333100,
+              "end": 1426300,
+              "score": 0
+            }
+          },
+          "19": {
+            "intro": {
+              "start": 0,
+              "end": 91400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1344000,
+              "end": 1435100,
+              "score": 0
+            }
+          },
+          "20": {
+            "intro": {
+              "start": 0,
+              "end": 90500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1335000,
+              "end": 1425700,
+              "score": 0
+            }
+          },
+          "21": {
+            "intro": {
+              "start": 0,
+              "end": 90800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334700,
+              "end": 1424900,
+              "score": 0
+            }
+          },
+          "22": {
+            "outro": {
+              "start": 1334400,
+              "end": 1426300,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            }
+          },
+          "23": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334700,
+              "end": 1425700,
+              "score": 0
+            }
+          },
+          "24": {
+            "intro": {
+              "start": 0,
+              "end": 90600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1335000,
+              "end": 1426100,
+              "score": 0
+            }
+          },
+          "25": {
+            "intro": {
+              "start": 0,
+              "end": 91200,
+              "score": 0
+            },
+            "outro": {
+              "start": 1335900,
+              "end": 1426800,
+              "score": 0
+            }
+          },
+          "26": {
+            "intro": {
+              "start": 0,
+              "end": 90700,
+              "score": 0
+            },
+            "outro": {
+              "start": 1334100,
+              "end": 1425400,
+              "score": 0
+            }
+          }
+        },
+        "2": {
+          "1": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1370400,
+              "end": 1460700,
+              "score": 0
+            }
+          },
+          "2": {
+            "outro": {
+              "start": 1370700,
+              "end": 1461800,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 90600,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 0,
+              "end": 90700,
+              "score": 0
+            },
+            "outro": {
+              "start": 1370000,
+              "end": 1460400,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1369400,
+              "end": 1459800,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371500,
+              "end": 1464600,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 0,
+              "end": 91900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1370700,
+              "end": 1461200,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 0,
+              "end": 92800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371100,
+              "end": 1464200,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 0,
+              "end": 91800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1372000,
+              "end": 1465200,
+              "score": 0
+            }
+          },
+          "9": {
+            "outro": {
+              "start": 1371500,
+              "end": 1464200,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 91800,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1370900,
+              "end": 1463000,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 0,
+              "end": 90800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1368000,
+              "end": 1459200,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 0,
+              "end": 90800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1370000,
+              "end": 1461300,
+              "score": 0
+            }
+          },
+          "13": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371400,
+              "end": 1465000,
+              "score": 0
+            }
+          },
+          "14": {
+            "intro": {
+              "start": 0,
+              "end": 91900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371400,
+              "end": 1463900,
+              "score": 0
+            }
+          },
+          "15": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1373400,
+              "end": 1466200,
+              "score": 0
+            }
+          },
+          "16": {
+            "intro": {
+              "start": 0,
+              "end": 91800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371400,
+              "end": 1464500,
+              "score": 0
+            }
+          },
+          "17": {
+            "intro": {
+              "start": 0,
+              "end": 91900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371200,
+              "end": 1463000,
+              "score": 0
+            }
+          },
+          "18": {
+            "intro": {
+              "start": 0,
+              "end": 92400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1372000,
+              "end": 1464600,
+              "score": 0
+            }
+          },
+          "19": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1372400,
+              "end": 1464300,
+              "score": 0
+            }
+          },
+          "20": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371400,
+              "end": 1464800,
+              "score": 0
+            }
+          },
+          "21": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1372400,
+              "end": 1465600,
+              "score": 0
+            }
+          },
+          "22": {
+            "intro": {
+              "start": 0,
+              "end": 91800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1372000,
+              "end": 1465200,
+              "score": 0
+            }
+          },
+          "23": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1369500,
+              "end": 1462200,
+              "score": 0
+            }
+          },
+          "24": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1372000,
+              "end": 1465100,
+              "score": 0
+            }
+          },
+          "25": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1369900,
+              "end": 1461800,
+              "score": 0
+            }
+          },
+          "26": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371400,
+              "end": 1465000,
+              "score": 0
+            }
+          },
+          "27": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371900,
+              "end": 1464800,
+              "score": 0
+            }
+          },
+          "28": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1371900,
+              "end": 1465000,
+              "score": 0
+            }
+          }
+        },
+        "3": {
+          "1": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473300,
+              "end": 1593600,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 0,
+              "end": 90300,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472800,
+              "end": 1593000,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 0,
+              "end": 89900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475600,
+              "end": 1593000,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1471800,
+              "end": 1592200,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 0,
+              "end": 90300,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473100,
+              "end": 1593600,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473600,
+              "end": 1594100,
+              "score": 0
+            }
+          },
+          "7": {
+            "outro": {
+              "start": 1471500,
+              "end": 1591600,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 90100,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 0,
+              "end": 90500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473600,
+              "end": 1593700,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 0,
+              "end": 90500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472800,
+              "end": 1594100,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 0,
+              "end": 92100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1477000,
+              "end": 1598500,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 0,
+              "end": 90600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473300,
+              "end": 1593800,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 0,
+              "end": 90500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474900,
+              "end": 1596100,
+              "score": 0
+            }
+          },
+          "13": {
+            "intro": {
+              "start": 0,
+              "end": 90100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472600,
+              "end": 1593100,
+              "score": 0
+            }
+          },
+          "14": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472500,
+              "end": 1592900,
+              "score": 0
+            }
+          },
+          "15": {
+            "outro": {
+              "start": 1472800,
+              "end": 1593200,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 90300,
+              "score": 0
+            }
+          },
+          "16": {
+            "intro": {
+              "start": 0,
+              "end": 90600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473000,
+              "end": 1593700,
+              "score": 0
+            }
+          },
+          "17": {
+            "intro": {
+              "start": 0,
+              "end": 90500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472400,
+              "end": 1592800,
+              "score": 0
+            }
+          },
+          "18": {
+            "outro": {
+              "start": 1472600,
+              "end": 1593100,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 90300,
+              "score": 0
+            }
+          },
+          "19": {
+            "intro": {
+              "start": 0,
+              "end": 90100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1471600,
+              "end": 1592000,
+              "score": 0
+            }
+          },
+          "20": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473500,
+              "end": 1594100,
+              "score": 0
+            }
+          },
+          "21": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474500,
+              "end": 1596100,
+              "score": 0
+            }
+          },
+          "22": {
+            "intro": {
+              "start": 0,
+              "end": 90000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475100,
+              "end": 1594600,
+              "score": 0
+            }
+          },
+          "23": {
+            "intro": {
+              "start": 0,
+              "end": 90300,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473300,
+              "end": 1593900,
+              "score": 0
+            }
+          },
+          "24": {
+            "intro": {
+              "start": 0,
+              "end": 90300,
+              "score": 0
+            },
+            "outro": {
+              "start": 1477100,
+              "end": 1597900,
+              "score": 0
+            }
+          },
+          "25": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474600,
+              "end": 1595100,
+              "score": 0
+            }
+          },
+          "26": {
+            "intro": {
+              "start": 0,
+              "end": 90800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472600,
+              "end": 1593300,
+              "score": 0
+            }
+          },
+          "27": {
+            "intro": {
+              "start": 0,
+              "end": 90500,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472600,
+              "end": 1593000,
+              "score": 0
+            }
+          },
+          "28": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1472600,
+              "end": 1593700,
+              "score": 0
+            }
+          },
+          "29": {
+            "intro": {
+              "start": 0,
+              "end": 95600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1597900,
+              "end": 1719200,
+              "score": 0
+            }
+          },
+          "30": {
+            "intro": {
+              "start": 0,
+              "end": 126300,
+              "score": 0
+            },
+            "outro": {
+              "start": 1512000,
+              "end": 1603500,
+              "score": 0
+            }
+          },
+          "31": {
+            "intro": {
+              "start": 0,
+              "end": 96100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1478500,
+              "end": 1599100,
+              "score": 0
+            }
+          },
+          "32": {
+            "intro": {
+              "start": 0,
+              "end": 90400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473000,
+              "end": 1595200,
+              "score": 0
+            }
+          }
+        },
+        "4": {
+          "1": {
+            "intro": {
+              "start": 61100,
+              "end": 151800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475100,
+              "end": 1565600,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474300,
+              "end": 1564800,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1473400,
+              "end": 1563900,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474600,
+              "end": 1565100,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475000,
+              "end": 1565400,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 0,
+              "end": 91800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474600,
+              "end": 1565100,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 0,
+              "end": 91800,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474600,
+              "end": 1565100,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475500,
+              "end": 1566000,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475400,
+              "end": 1565900,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 0,
+              "end": 91400,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475300,
+              "end": 1565700,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1476700,
+              "end": 1567100,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 0,
+              "end": 91300,
+              "score": 0
+            },
+            "outro": {
+              "start": 1565100,
+              "end": 1655500,
+              "score": 0
+            }
+          },
+          "13": {
+            "outro": {
+              "start": 1475600,
+              "end": 1566100,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            }
+          },
+          "14": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474400,
+              "end": 1564900,
+              "score": 0
+            }
+          },
+          "15": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474900,
+              "end": 1565300,
+              "score": 0
+            }
+          },
+          "16": {
+            "intro": {
+              "start": 0,
+              "end": 91900,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475800,
+              "end": 1566300,
+              "score": 0
+            }
+          },
+          "17": {
+            "outro": {
+              "start": 1475500,
+              "end": 1565900,
+              "score": 0
+            },
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            }
+          },
+          "18": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474600,
+              "end": 1565100,
+              "score": 0
+            }
+          },
+          "19": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1475600,
+              "end": 1566000,
+              "score": 0
+            }
+          },
+          "20": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1474600,
+              "end": 1565100,
+              "score": 0
+            }
+          },
+          "22": {
+            "intro": {
+              "start": 0,
+              "end": 91600,
+              "score": 0
+            },
+            "outro": {
+              "start": 1705200,
+              "end": 1795600,
+              "score": 0
+            }
+          },
+          "23": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1793600,
+              "end": 1884700,
+              "score": 0
+            }
+          },
+          "24": {
+            "intro": {
+              "start": 0,
+              "end": 91100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1859900,
+              "end": 1952000,
               "score": 0
             }
           }
@@ -580063,6 +581385,444 @@
         }
       }
     },
+    "74018": {
+      "imdb_id": "tt7407236",
+      "seasons": {
+        "1": {
+          "1": {
+            "intro": {
+              "start": 62000,
+              "end": 152000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 74000,
+              "end": 164000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1307100,
+              "end": 1397100,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 126000,
+              "end": 216000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1489900,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 77000,
+              "end": 167000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 62000,
+              "end": 152000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 96000,
+              "end": 186000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1489900,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 80000,
+              "end": 170000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1332000,
+              "end": 1422000,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 88000,
+              "end": 178100,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 56100,
+              "end": 146000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 158000,
+              "end": 248000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 50100,
+              "end": 140000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "12": {
+            "intro": {
+              "start": 51100,
+              "end": 141000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490100,
+              "score": 0
+            }
+          }
+        },
+        "2": {
+          "1": {
+            "intro": {
+              "start": 38000,
+              "end": 128000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490100,
+              "score": 0
+            }
+          },
+          "2": {
+            "intro": {
+              "start": 55100,
+              "end": 145000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "3": {
+            "intro": {
+              "start": 84000,
+              "end": 174000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400100,
+              "end": 1490100,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 37000,
+              "end": 127000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 151000,
+              "end": 241000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 150000,
+              "end": 240000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1490000,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 123000,
+              "end": 213000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1399900,
+              "end": 1489900,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 67000,
+              "end": 157000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1489900,
+              "score": 0
+            }
+          },
+          "9": {
+            "intro": {
+              "start": 72000,
+              "end": 162000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1399900,
+              "end": 1489900,
+              "score": 0
+            }
+          },
+          "10": {
+            "outro": {
+              "start": 1359000,
+              "end": 1449000,
+              "score": 0
+            },
+            "intro": {
+              "start": 25000,
+              "end": 115000,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 125000,
+              "end": 215000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1400000,
+              "end": 1489900,
+              "score": 0
+            }
+          },
+          "12": {
+            "recap": {
+              "start": 1106100,
+              "end": 1189000,
+              "score": 0
+            },
+            "intro": {
+              "start": 61000,
+              "end": 151000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1189000,
+              "end": 1369000,
+              "score": 0
+            }
+          }
+        },
+        "3": {
+          "1": {
+            "intro": {
+              "start": 149000,
+              "end": 237000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1406000,
+              "end": 1496000,
+              "score": 0
+            }
+          },
+          "2": {
+            "outro": {
+              "start": 1408000,
+              "end": 1496000,
+              "score": 0
+            }
+          },
+          "3": {
+            "outro": {
+              "start": 1409000,
+              "end": 1498000,
+              "score": 0
+            },
+            "intro": {
+              "start": 15000,
+              "end": 104000,
+              "score": 0
+            }
+          },
+          "4": {
+            "intro": {
+              "start": 144000,
+              "end": 232000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1409000,
+              "end": 1507000,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 157000,
+              "end": 246000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1409000,
+              "end": 1507000,
+              "score": 0
+            }
+          },
+          "6": {
+            "intro": {
+              "start": 92000,
+              "end": 181000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1408000,
+              "end": 1498000,
+              "score": 0
+            }
+          },
+          "7": {
+            "intro": {
+              "start": 56000,
+              "end": 144000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1408000,
+              "end": 1507000,
+              "score": 0
+            }
+          },
+          "8": {
+            "intro": {
+              "start": 67000,
+              "end": 157000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1401000,
+              "end": 1507000,
+              "score": 0
+            }
+          },
+          "9": {
+            "outro": {
+              "start": 1409000,
+              "end": 1507000,
+              "score": 0
+            }
+          },
+          "10": {
+            "intro": {
+              "start": 134000,
+              "end": 224000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1409000,
+              "end": 1507000,
+              "score": 0
+            }
+          },
+          "11": {
+            "intro": {
+              "start": 57000,
+              "end": 146000,
+              "score": 0
+            },
+            "outro": {
+              "start": 1407000,
+              "end": 1499000,
+              "score": 0
+            }
+          },
+          "12": {
+            "outro": {
+              "start": 1409000,
+              "end": 1498000,
+              "score": 0
+            },
+            "intro": {
+              "start": 121000,
+              "end": 211000,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
     "74083": {
       "imdb_id": "tt8644562",
       "seasons": {
@@ -651232,14 +652992,14 @@
             }
           },
           "2": {
-            "intro": {
-              "start": 0,
-              "end": 91000,
-              "score": 0
-            },
             "outro": {
               "start": 1326000,
               "end": 1416000,
+              "score": 0
+            },
+            "intro": {
+              "start": 94000,
+              "end": 184000,
               "score": 0
             }
           },
