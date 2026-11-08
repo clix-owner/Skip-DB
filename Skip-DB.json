@@ -2,7 +2,7 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-11-06T13:00:01.224Z",
+    "generated_at": "2026-11-07T11:46:43.158Z",
     "timestamp_unit": "milliseconds",
     "movie_count": 1470,
     "tv_count": 1726
@@ -112267,6 +112267,14 @@
               "start": 2536000,
               "end": 2583000,
               "duration": 2583000,
+              "score": 0
+            }
+          },
+          "4": {
+            "outro": {
+              "start": 2597000,
+              "end": 2645400,
+              "duration": 2645400,
               "score": 0
             }
           }
@@ -529889,6 +529897,14 @@
               "duration": 2457600,
               "score": 0
             }
+          },
+          "5": {
+            "outro": {
+              "start": 2420000,
+              "end": 2464800,
+              "duration": 2464800,
+              "score": 0
+            }
           }
         }
       }
@@ -618243,6 +618259,14 @@
               "start": 2540000,
               "end": 2579700,
               "duration": 2579700,
+              "score": 0
+            }
+          },
+          "4": {
+            "outro": {
+              "start": 2543000,
+              "end": 2583600,
+              "duration": 2583600,
               "score": 0
             }
           }
@@ -744636,6 +744660,14 @@
               "duration": 2596000,
               "score": 0
             }
+          },
+          "4": {
+            "outro": {
+              "start": 2520000,
+              "end": 2550700,
+              "duration": 2550700,
+              "score": 0
+            }
           }
         }
       }
@@ -749644,6 +749676,14 @@
               "start": 1164000,
               "end": 1192900,
               "duration": 1192900,
+              "score": 0
+            }
+          },
+          "5": {
+            "outro": {
+              "start": 1190000,
+              "end": 1206600,
+              "duration": 1206600,
               "score": 0
             }
           }
@@ -760915,6 +760955,20 @@
               "duration": 3119800,
               "score": 0
             }
+          },
+          "3": {
+            "outro": {
+              "start": 2749900,
+              "end": 2843000,
+              "duration": 2843000,
+              "score": 0
+            },
+            "intro": {
+              "start": 160300,
+              "end": 224100,
+              "duration": 2843000,
+              "score": 0
+            }
           }
         }
       }
@@ -761232,6 +761286,14 @@
               "duration": 1294800,
               "score": 0
             }
+          },
+          "7": {
+            "intro": {
+              "start": 109400,
+              "end": 121100,
+              "duration": 1294900,
+              "score": 0
+            }
           }
         }
       }
@@ -761531,6 +761593,14 @@
               "duration": 2677400,
               "score": 0
             }
+          },
+          "6": {
+            "outro": {
+              "start": 2962000,
+              "end": 2970300,
+              "duration": 2970300,
+              "score": 0
+            }
           }
         }
       }
@@ -761634,6 +761704,14 @@
               "start": 2535000,
               "end": 2563900,
               "duration": 2563900,
+              "score": 0
+            }
+          },
+          "5": {
+            "outro": {
+              "start": 2527000,
+              "end": 2556400,
+              "duration": 2556400,
               "score": 0
             }
           }
@@ -761887,6 +761965,14 @@
               "start": 2854000,
               "end": 2986800,
               "duration": 2986800,
+              "score": 0
+            }
+          },
+          "6": {
+            "outro": {
+              "start": 2604000,
+              "end": 2736800,
+              "duration": 2736800,
               "score": 0
             }
           }
@@ -762197,6 +762283,14 @@
               "duration": 1257100,
               "score": 0
             }
+          },
+          "5": {
+            "outro": {
+              "start": 1232000,
+              "end": 1250200,
+              "duration": 1250200,
+              "score": 0
+            }
           }
         }
       }
@@ -762235,6 +762329,14 @@
               "start": 1611000,
               "end": 1650600,
               "duration": 1650600,
+              "score": 0
+            }
+          },
+          "4": {
+            "outro": {
+              "start": 1805000,
+              "end": 1835800,
+              "duration": 1835800,
               "score": 0
             }
           }
