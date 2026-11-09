@@ -2,10 +2,10 @@
   "meta": {
     "format": 1,
     "source": "SkipDB",
-    "generated_at": "2026-11-07T11:46:43.158Z",
+    "generated_at": "2026-11-08T11:58:49.910Z",
     "timestamp_unit": "milliseconds",
-    "movie_count": 1470,
-    "tv_count": 1726
+    "movie_count": 1471,
+    "tv_count": 1727
   },
   "movies": {
     "5": {
@@ -15856,6 +15856,23 @@
           "start": 5706600,
           "end": 5752000,
           "duration": 5752000,
+          "score": 0
+        }
+      }
+    },
+    "1368337": {
+      "imdb_id": "tt33764258",
+      "segments": {
+        "intro": {
+          "start": 0,
+          "end": 33400,
+          "duration": 10355800,
+          "score": 0
+        },
+        "outro": {
+          "start": 9941200,
+          "end": 10355800,
+          "duration": 10355800,
           "score": 0
         }
       }
@@ -226620,6 +226637,14 @@
               "start": 330500,
               "end": 377700,
               "duration": 2463000,
+              "score": 0
+            }
+          },
+          "5": {
+            "intro": {
+              "start": 382700,
+              "end": 427400,
+              "duration": 2431800,
               "score": 0
             }
           }
@@ -753542,6 +753567,14 @@
               "end": 490000,
               "score": 0
             }
+          },
+          "5": {
+            "outro": {
+              "start": 2560000,
+              "end": 2589800,
+              "duration": 2589800,
+              "score": 0
+            }
           }
         }
       }
@@ -756653,6 +756686,26 @@
               "duration": 3028200,
               "score": 0
             }
+          },
+          "2": {
+            "outro": {
+              "start": 3446000,
+              "end": 3494700,
+              "duration": 3494700,
+              "score": 0
+            },
+            "intro": {
+              "start": 86000,
+              "end": 194000,
+              "duration": 3494700,
+              "score": 0
+            },
+            "recap": {
+              "start": 5000,
+              "end": 85000,
+              "duration": 3494700,
+              "score": 0
+            }
           }
         }
       }
@@ -757441,6 +757494,53 @@
               "start": 4216600,
               "end": 4473200,
               "duration": 4473200,
+              "score": 0
+            }
+          }
+        }
+      }
+    },
+    "262352": {
+      "imdb_id": "tt33246591",
+      "seasons": {
+        "2": {
+          "2": {
+            "outro": {
+              "start": 2853000,
+              "end": 2914800,
+              "duration": 2914800,
+              "score": 0
+            }
+          },
+          "3": {
+            "outro": {
+              "start": 2878000,
+              "end": 2938700,
+              "duration": 2938700,
+              "score": 0
+            }
+          },
+          "4": {
+            "outro": {
+              "start": 2659000,
+              "end": 2718400,
+              "duration": 2718400,
+              "score": 0
+            }
+          },
+          "5": {
+            "outro": {
+              "start": 2775000,
+              "end": 2834800,
+              "duration": 2834800,
+              "score": 0
+            }
+          },
+          "6": {
+            "outro": {
+              "start": 2671000,
+              "end": 2731300,
+              "duration": 2731300,
               "score": 0
             }
           }
